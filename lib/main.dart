@@ -4,7 +4,7 @@ void main() {
   return runApp(MaterialApp(
     home: Scaffold(
       appBar: AppBar(
-        title: const Text("Jules William Custodio 23-24"),
+        title: const Text("Jules William Custodio 23-24", style: TextStyle(fontSize: 20),),
       ),
     )
   ));
